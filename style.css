@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*dette er standardinstillinger for alle mine hjemme sider*/
+}
+html, body {
+    width: 100%;
+
+}
+.box {
+    height: 90%;
+    width: 90%;
+    margin: 10px 60px;
+
+}
+#overskrift {
+    background-color: orange;
+    text-align: center;
+    line-height: 16o;
+    font-size: 75px;
+    margin: 10px 20px;
+    color: white;
+    width: 90%;
+    height: 20%;
+    line-height: 190px;
+    margin-left: 60px;
+
+}
+#muligheder {
+    height: 50px;
+    margin: 10px 60px;
+    background-color: black;
+    color: white;
+}
+.sortelinks >li{
+    display: inline-block;
+    margin-left: 125px;
+    text-indent: 40px;    
+    font-size: 25px;
+    color: white;
+}
+#storfirkant {
+    width: 90%;
+    height: 1100px;
+    background-color: azure;
+    border-radius: 100px;
+    border: solid black 2px;
+    margin-left: 58px;
+}
+.billede {
+  width: 400px;  
+  height: 300px;
+margin-left: 30px;
+    
+
+}
+.højrebilled {
+    margin-left: 850px;
+}
+
+.overskrifttxt {
+font-size: 20px;
+
+}
+.leftoverskrift {
+    margin-left: 10px;
+
+}
+.tekst {
+    width: 400px;
+    height: 400px;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#textone {
+border-block-end: 20px;
+width: 200px;
+height: 50px;
+
+}
+.m1 {
+    margin: 8px;
+
+}
+.m2 {
+    margin: 12px;
+
+}
+.m3 {
+    margin: 16px;
+}
+.banner {
+transition: 0.25s;
+}
+
+.cp {
+    color: blue;
+}
+.cs{
+    color: aquamarine;
+}
+.cf {
+    color: red;
+}
+.cw {
+    color: white;
+}
+.bc1 {
+    background-color: yellow;
+}
+.bc2 {
+    background-color: black;
+
+}
+.banner:hover {
+    background-color: lightblue;
+    scale: 1.1;
+    font-size: 50px;
+    opacity: 50%;
+    color: white;
+    
+}
+.links {
+    width: 60%;
+    margin: 0 auto;
+    padding: 8px;
+
+}
+.link-liste {
+    list-style: none;
+
+}
+.link-items {
+    border: 1px solid red;  
+    display: inline-block;
+    border: 1px solid blue;
+    margin: 4.4%;
+    padding: 10px;
+    transition: 0.5s;
+
+}
+.link-items:hover {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
