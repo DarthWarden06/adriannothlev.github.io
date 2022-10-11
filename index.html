@@ -4,41 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odders</title>
+    <title>Home</title>
+   
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <div id="overskrift" class="orange">Den er sød i den ansigt.</div>
-    <div id="muligheder" class="box">
-        <ul class="sortelinks">
-            <li><a target="_blank" href="https://www.office.com/?auth=2">Hjem</a></li>
-            <li><a target="_blank" href="file:///C:/Users/adria/OneDrive/Skrivebord/VD2023/index.html">Udflugt</a></li>
-            <li><a target="_blank" href="https://www.w3schools.com/css/css_text_spacing.asp">Tilflugt</a></li>
-            <li><a href="info.html">Om mig</a></li>
-            <li><a target="_blank" href="https://da.wikipedia.org/wiki/Jesus">Jesus</a></li>
-        </ul>
+    <div id="title" class="fs-1 c1 text-dark container p-3 mt-1 text-center">Adrians Website!</div>    
+
+   <!--NAVIGATION START-->
+    <div id="navigation">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rubiks.html">Rubiks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skak.html">Skak</a>
+            <li class="nav-item">
+                <a class="nav-link" href="anime.html">Anime</a>
+                <li id="films" class="nav-item">
+                    <a class="nav-link" href="fim.html">Film</a>
+                  </ul>
     </div>
-    <div id="storfirkant">
-        <div >
-            <h1 style="margin-top: 70px;" id="Udbredelse" class="overskrifttxt leftoverskrift">Udbredelse</h1></div>
-            <img class="billede højrebilled" src="./img/otter1.jpg" alt="odder">
-         <div id="txtone" class="tekst">
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo in numquam nobis voluptate saepe fugiat nam recusandae cumque pariatur non sed consectetur officiis voluptas facilis repudiandae, placeat praesentium aut error?</p>
+     <!--NAVIGATION SLUT-->   
+      <div id="stordivhome" style="width: 84%;" class="container bg-light" >
+        <!--card element-->
+        <div id="infokasse" class="row">
+            <div class="col-md-12 bg-success">
+                <!--main content-->
+                <div class="row m-1 mt-4">
+                <div class="col">
+                    <!--card film start-->
+                    <div class="card" style="width: 18rem; margin-left: 15%;">
+                        <!--Carousel film start-->
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="img/DarkKnight.jpg" class="d-block w-100" alt="DarkKnight">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/star_wars_4 - Kopi.jpg" class="d-block w-100" alt="star_wars_4">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./img/Fightclub.png" class="d-block w-100" alt="Fight Club">
+                              </div>
+                            </div>
+                            <!--Carousel film end-->
+                          </div>
+                        <div class="card-body">
+                            <!--dropdown film menu start-->
+                          <h5 class="card-title">Film</h5>
+                          <p class="card-text">Nørd på mange punkter, her er filmene som jeg bedst kan lide og de kommende i biograferne.</p>
+                          <div>
+                         <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">Film</button>
+                         <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="fim.html">Top10</a></li>
+                            <li><a class="dropdown-item" href="https://lido.dk/kommende-film/" target="_blank">Kommende</a></li>
+                          </ul>
+                        </div>
+                        <!--dropdown film menu End-->
+                        </div>
+                      </div>
+                </div>
+                <div class="col" style="margin-left: 5%">
+                    <div class="card" style="width: 18rem;">
+
+                        <img style="height: 420px;" src="./img/giphy.gif" alt="Rubiks">
+                        <div class="card-body">
+                          <h5 class="card-title">Rubiks</h5>
+                          <p class="card-text">Min store hobby er at lege med terningen, her kan ses algoritmer, PB's og mere.</p>
+                          <a href="./rubiks.html" class="btn btn-primary">Rubiks</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+
+                        <img style="height: 420px;" src="./img/board.gif" alt="Rubiks">
+                        <div class="card-body">
+                          <h5 class="card-title">Skak</h5>
+                          <p class="card-text" style="height: 70px;">En ny hobby, meget udfordrende da spilet fungere på sjove måder.</p>
+                          <a href="./skak.html" class="btn btn-primary">Skak</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+              <div class="row m-1 mt-4">
+                
+                </div>
+            
+             </div>
+            
+                </div>
+            <!--card element slut-->    
+          </div> 
+            <div class="col-md-2 bg-secondary">
+                <!--info kasse-->
 
             </div>
-        </div>
-        <div>
-            <h2 style="margin-left: 85%;" class="overskrifttxt">Udseende</h2>
-        </div>
-            <img class="billede" src="./img/otter4.jpg" alt="odderrr">
-        <div><h3 class="overskrifttxt leftoverskrift">Føde</h3></div>
-            <img class="billede højrebilled" src="./img/otter3.jpg" alt="oder">
-           
-            <div class="tekst"></div>
-            <div class="tekst"></div>
+        
 
+
+
+
+<!--footer start-->
+<div id="footer" class="c2">
+  <footer id="sidefod" class="py-5 ms-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Fast Travel</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Rubiks</a></li>
+          <li class="nav-item mb-2"><a href="skak.html" class="nav-link p-0 text-muted">Skak</a></li>
+          <li class="nav-item mb-2"><a href="anime.html" class="nav-link p-0 text-muted">Anime</a></li>
+          <li class="nav-item mb-2"><a href="fim.html" class="nav-link p-0 text-muted">Film</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="https://Indidansk.dk" target="_blank" class="nav-link p-0 text-muted">Ind i dansk</a></li>
+          <li class="nav-item mb-2"><a href="https://abc.ordbogen.com/dictionary" target="_blank" class="nav-link p-0 text-muted">ABC ordbogen</a></li>
+          <li class="nav-item mb-2"><a href="https://nordborgslot.viggo.dk/#modal" target="_blank" class="nav-link p-0 text-muted">Viggo</a></li>
+          <li class="nav-item mb-2"><a href="https://jperm.net/" target="_blank" class="nav-link p-0 text-muted">Jperm</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+          <h5>Coding Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.2/getting-started/download/" target="_blank" class="nav-link p-0 text-muted">Bootstrap</a></li>
+            <li class="nav-item mb-2"><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" class="nav-link p-0 text-muted">Flex-box</a></li>
+            <li class="nav-item mb-2"><a href="https://www.freecodecamp.org/" target="_blank" class="nav-link p-0 text-muted">FreeCodeCamp</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div id="bund" class="orange box"></div>
+  </footer>
+</div>
+        <style>
+          body{
+            background-color: burlywood;
+          }
+        </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

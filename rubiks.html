@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubiks</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div id="title" class="fs-1 c1 text-dark container p-3 mt-1 text-center">Adrians Website!</div>    
+    
+<!--NAVIGATION START-->
+    <div id="navigation">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Rubiks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="skak.html">Skak</a>
+            <li class="nav-item">
+                <a class="nav-link" href="anime.html">Anime</a>
+                <li id="films" class="nav-item">
+                    <a class="nav-link" href="fim.html">Film</a>
+          </ul>
+    </div>
+ <!--NAVIGATION SLUT-->   
+
+<!-- Scramblegen med knap start-->
+<h1 style="text-align: center;">Scramble Generator!</h1>
+
+    <div class="flex">
+    <div id="box1">
+    <p style="margin-left: 2px;">Algorithm</p>
+    </div>
+    <button id="knap" onclick="generateRandom()" type="button" class="btn btn-primary btn-lg">Generate</button>
+    </div>
+<!-- Scramblegen med knap start-->
+<!--Infoboks start-->
+<div id="infobox" class="container ">
+    <div style="text-align: center;" class="hvidfelt fs-2 c1">
+        PB's og hvad jeg arbejder på.<a href="./index.html"></a>
+    </div>
+  <!--Overskrift Slut-->  
+</div>
+
+
+
+
+
+<!--footer start-->
+<div id="footer" class="c2">
+    <footer id="sidefod" class="py-5 ms-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Fast Travel</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Rubiks</a></li>
+            <li class="nav-item mb-2"><a href="skak.html" class="nav-link p-0 text-muted">Skak</a></li>
+            <li class="nav-item mb-2"><a href="anime.html" class="nav-link p-0 text-muted">Anime</a></li>
+            <li class="nav-item mb-2"><a href="fim.html" class="nav-link p-0 text-muted">Film</a></li>
+
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://Indidansk.dk" target="_blank" class="nav-link p-0 text-muted">Ind i dansk</a></li>
+            <li class="nav-item mb-2"><a href="https://abc.ordbogen.com/dictionary" target="_blank" class="nav-link p-0 text-muted">ABC ordbogen</a></li>
+            <li class="nav-item mb-2"><a href="https://nordborgslot.viggo.dk/#modal" target="_blank" class="nav-link p-0 text-muted">Viggo</a></li>
+            <li class="nav-item mb-2"><a href="https://jperm.net/" target="_blank" class="nav-link p-0 text-muted">Jperm</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+            <h5>Coding Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.2/getting-started/download/" target="_blank" class="nav-link p-0 text-muted">Bootstrap</a></li>
+              <li class="nav-item mb-2"><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" class="nav-link p-0 text-muted">Flex-box</a></li>
+              <li class="nav-item mb-2"><a href="https://www.freecodecamp.org/" target="_blank" class="nav-link p-0 text-muted">FreeCodeCamp</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+ <script src="script.js"></script>
+ <style>
+    body{
+        background-color: burlywood;
+    }
+    
+</style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
